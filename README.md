@@ -1,24 +1,76 @@
 # AI Chatbot using Groq API
 
-A conversational AI chatbot built using Python and Streamlit.
+A simple command-line AI chatbot built with Python and the Groq API using the Llama 3.1 model.  
+The chatbot supports conversational memory and secure API key management using environment variables.
+
+---
 
 ## Features
-- Memory-based chat
-- Secure API key using .env
-- Web UI using Streamlit
-- Powered by Groq LLM API
+- Conversational chatbot interface
+- Maintains conversation context
+- Secure API key management using `.env`
+- Lightweight CLI application
+
+---
 
 ## Tech Stack
-Python  
-Streamlit  
-Groq API  
+- Python
+- Groq API
+- Llama 3.1
+- dotenv
 
-## Run Locally
+---
+
+## Project Structure
+
+ai-chatbot/
+│
+├── app.py
+├── requirements.txt
+├── .env.example
+├── README.md
+└── screenshots/
+    └── chatbot-ui.png
+
+---
+
+## Installation
+
+Clone the repository:
+
+git clone https://github.com/gaganpreet-dev/ai-chatbot.git
+
+Navigate into the project directory:
+
+cd ai-chatbot
+
+Install dependencies:
 
 pip install -r requirements.txt
 
-streamlit run app.py
+---
 
-## Demo
+## Setup
+
+Create a `.env` file in the root directory:
+
+GROQ_API_KEY=your_api_key_here
+
+---
+
+## Run the Chatbot
+
+python app.py
+
+---
+
+## Screenshot
 
 ![Chatbot UI](screenshots/chatbot-ui.png)
+
+---
+
+## Future Improvements
+- Web interface using Streamlit or React
+- Multi-agent conversation support
+- Docker containerization
