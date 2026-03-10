@@ -38,7 +38,7 @@ ai-chatbot/
 
 Clone the repository:
 
-git clone https://github.com/gaganpreet-dev/ai-chatbot.git
+git clone https://github.com/gaganpreet-dev/groq-ai-chatbot
 
 Navigate into the project directory:
 
